@@ -1,0 +1,40 @@
+# H.E.R.B. — Home Environment Responsive Bot
+# Python 3.12+ | Windows 11 | CPU-first (sem CUDA obrigatório)
+
+# Core
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.3.0,<3.0.0
+httpx>=0.27.0,<1.0.0
+python-dotenv>=1.0.1,<2.0.0
+aiofiles>=23.2.1,<25.0.0
+PyYAML>=6.0.1,<7.0.0
+
+# Interface
+PySide6>=6.7.0,<7.0.0
+keyboard>=0.13.5,<0.14.0
+Pillow>=10.3.0,<14.0.0
+
+# Áudio / STT / TTS
+numpy>=1.26.0,<3.0.0
+sounddevice>=0.4.7,<0.6.0
+soundfile>=0.12.1,<0.14.0
+faster-whisper>=1.0.3,<2.0.0
+# Kokoro: integração via caminho local configurável (ver docs/VOICE.md)
+# openwakeword é opcional (pip install openwakeword)
+
+# Visão
+mss>=9.0.1,<10.0.0
+pytesseract>=0.3.10,<0.4.0
+opencv-python-headless>=4.9.0,<5.0.0
+
+# Automação Windows
+pyautogui>=0.9.54,<0.10.0
+pywinauto>=0.6.8,<0.7.0
+psutil>=5.9.8,<7.0.0
+pywin32>=306
+
+# Testes
+pytest>=8.2.0,<9.0.0
+pytest-asyncio>=0.23.6,<1.0.0
+pytest-mock>=3.14.0,<4.0.0
+respx>=0.21.1,<0.24.0

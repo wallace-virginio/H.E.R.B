@@ -1,0 +1,94 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+data/config.json
+data/memory/*.db
+data/cache/**
+data/speakers/**
+!data/speakers/.gitkeep
+!data/memory/.gitkeep
+!data/cache/.gitkeep
+logs/**
+!logs/.gitkeep
+*.wav
+*.mp3
+*.onnx
+*.pt
+*.bin
+*.npz
+*.zip
+HERB_v*.zip
+.DS_Store
+Thumbs.db
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+.cursor/
+
+# Logs
+logs/
+*.log
+
+# Database and personal data
+*.db
+*.sqlite
+*.sqlite3
+data/*
+!data/.gitkeep
+
+# AI models and weights
+models/
+weights/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Audio and screen captures
+recordings/
+audio_samples/
+screenshots/
+captures/
+*.wav
+*.mp3
+*.flac
+
+# Build
+build/
+dist/
+*.spec
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
